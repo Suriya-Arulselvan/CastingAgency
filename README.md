@@ -7,7 +7,7 @@ The Casting Agency models a company that is responsible for creating movies and 
 ## Deployment
 
 The Casting agency application is up and running at https://casting-agency-app-12-12.herokuapp.com/ 
-Authentication link is [here] (https://dev-fnsd-casting.us.auth0.com/authorize?audience=casting&response_type=token&client_id=lV19kR1DNT5fLFgOr5oiG6XgYWdYEQ1p&redirect_uri=http://localhost:8080/login-results)
+Authentication link is [here](https://dev-fnsd-casting.us.auth0.com/authorize?audience=casting&response_type=token&client_id=lV19kR1DNT5fLFgOr5oiG6XgYWdYEQ1p&redirect_uri=http://localhost:8080/login-results)
 
 Usernames and Passwords for the three roles are as follows:
 1. Role: Casting Assistant
