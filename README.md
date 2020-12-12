@@ -4,11 +4,15 @@
 
 The Casting Agency models a company that is responsible for creating movies and managing and assigning actors to those movies. You are an Executive Producer within the company and are creating a system to simplify and streamline your process.
 
+## Deployment
+
+The Casting agency application is up and running at https://casting-agency-app-12-12.herokuapp.com/ 
+
 ## Getting Started
 
 ### Installing Depedencies
 
-#### Python 3.7
+#### Python 3.8.2
 
 Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
