@@ -6,7 +6,7 @@ from flask_sqlalchemy import SQLAlchemy
 from app import create_app
 from database.models import setup_db
 
-test_database_path = os.getenv("TEST_DATABASE_PATH").replace("\r", "")
+test_database_path = os.getenv("TEST_DATABASE_URL").replace("\r", "")
 castingAssistant_BearerToken = os.getenv("CASTING_ASSISTANT_TOKEN").replace("\r", "")
 castingDirector_BearerToken = os.getenv("CASTING_DIRECTOR_TOKEN").replace("\r", "")
 executiveProducer_BearerToken = os.getenv("EXECUTIVE_PRODUCER_TOKEN").replace("\r", "")

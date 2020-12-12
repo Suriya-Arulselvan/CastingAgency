@@ -5,7 +5,7 @@ import os
 
 db = SQLAlchemy()
 
-database_path = os.getenv("DATABASE_PATH").replace("\r", "")
+database_path = os.getenv("DATABASE_URL").replace("\r", "")
 
 
 def setup_db(app, database_path=database_path):
