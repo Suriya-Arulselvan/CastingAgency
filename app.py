@@ -4,6 +4,7 @@ from flask_cors import CORS
 from database.models import setup_db, Movie, Actor, dbSessionClose, dbSessionRollback
 from datetime import date
 from auth.auth import AuthError, requires_auth
+from flask_migrate import Migrate
 
 """
 Create and configure the application
@@ -13,7 +14,8 @@ Create and configure the application
 def create_app(test_config=None):
     app = Flask(__name__)
     CORS(app, resource={r"/*": {"origins": "*"}})
-    setup_db(app)
+    db = setup_db(app)
+    migrate = Migrate(app, db)
 
     @app.after_request
     def after_request(response):
