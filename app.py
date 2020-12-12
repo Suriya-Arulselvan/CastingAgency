@@ -3,6 +3,7 @@ from flask import Flask, request, abort, jsonify
 from flask_cors import CORS
 from database.models import setup_db, Movie, Actor, dbSessionClose, dbSessionRollback
 from datetime import date
+from date import fromisoformat
 from auth.auth import AuthError, requires_auth
 from flask_migrate import Migrate
 
