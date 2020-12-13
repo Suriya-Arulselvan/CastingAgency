@@ -4,6 +4,10 @@
 
 The Casting Agency models a company that is responsible for creating movies and managing and assigning actors to those movies. You are an Executive Producer within the company and are creating a system to simplify and streamline your process.
 
+## Motivation
+
+This project the capstone project for Udacity's Full Stack Web Developer Nanodegree.  The application can be used to maintain the casting of a production house.  User with appropriate credentials could read/delete/modify/create actors and movies using this application.
+
 ## Deployment
 
 The Casting agency application is up and running at https://casting-agency-app-12-12.herokuapp.com/ 
@@ -14,12 +18,15 @@ Usernames and Passwords for the three roles are as follows:
 1. Role: Casting Assistant
    Username: CastingAssistant@gmail.com
    Password: CastingA@123
+   Permissions: get:movies, get:actors
 2. Role: Casting Director
    Username: CastingDirector@gmail.com
    Password: CastingD@123
+   Permissions: get:movies, get:actors, post:actors, delete:actors, patch:actors, patch:movies
 3. Role: Executive Producer
    Username: ExecutiveProducer@gmail.com
    Password: ExecutiveP@123
+   Permissions: get:movies, get:actors, post:actors, delete:actors, post:movies, delete:movies, patch:actors, patch:movies
 
 ## Getting Started
 
