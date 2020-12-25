@@ -6,7 +6,7 @@ The Casting Agency models a company that is responsible for creating movies and 
 
 ## Motivation
 
-This project the capstone project for Udacity's Full Stack Web Developer Nanodegree.  The application can be used to maintain the casting of a production house.  User with appropriate credentials could read/delete/modify/create actors and movies using this application.
+This project is the capstone project for Udacity's Full Stack Web Developer Nanodegree.  The application can be used to maintain the casting of a production house.  User with appropriate credentials could read/delete/modify/create actors and movies using this application.
 
 ## Deployment
 
